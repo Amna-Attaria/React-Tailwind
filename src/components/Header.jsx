@@ -18,7 +18,7 @@ const Header = () => {
             Every day brings with it a fresh set of learning possibilities.
           </p>
           <div className="mt-10 mb-10 flex justify-center lg:justify-start gap-3">
-            <button className="inline-block rounded border bg-lime-600 px-3 md:px-10 lg:px-12 py-3 text-sm font-medium text-white focus:outline-none" href="/download">
+            <button id='to-top-button' className="inline-block rounded border bg-lime-600 px-3 md:px-10 lg:px-12 py-3 text-sm font-medium text-white focus:outline-none" href="/download">
               Get Quote Now
             </button>
             <button className="inline-block rounded border border-lime-600 bg-white px-3 md:px-10 lg:px-12 py-3 text-sm font-medium text-lime-600 focus:outline-none" href="/download">
